@@ -1,0 +1,157 @@
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+}
+
+header{
+    background:#222;
+    color:white;
+    padding:15px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-right:15px;
+}
+
+.hero{
+    text-align:center;
+    padding:100px 20px;
+    background:#f4f4f4;
+}
+
+button{
+    padding:10px 20px;
+    cursor:pointer;
+}
+.about{
+    padding: 40px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.about h2{
+    text-align: center;
+}
+
+.about ul{
+    margin-top: 20px;
+}
+.gallery{
+    padding: 40px;
+    text-align: center;
+}
+
+.gallery-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.gallery-container img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.gallery-container img:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+.contact{
+    max-width: 600px;
+    margin: auto;
+    padding: 40px;
+}
+
+.contact form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact input,
+.contact textarea{
+    padding: 10px;
+}
+
+.contact button{
+    padding: 12px;
+    cursor: pointer;
+}
+.hours{
+    list-style: none;
+    padding: 0;
+}
+
+.hours li{
+    padding: 5px 0;
+}
+/* Responsive Design */
+
+@media (max-width: 768px) {
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav a {
+        margin: 10px 0;
+    }
+
+    .gallery-container {
+        grid-template-columns: 1fr;
+    }
+
+    .contact,
+    .about,
+    .menu {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+}
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.logo-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.logo{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+header h1{
+    margin: 0;
+    color: gold;
+    font-size: 32px;
+}
+.social-icons a{
+    font-size: 30px;
+    margin: 0 15px;
+    color: gold;
+    text-decoration: none;
+}
+
+.social-icons a:hover{
+    color: white;
+}
