@@ -58,6 +58,9 @@ button{
     transform: scale(1.05);
     transition: 0.3s;
 }
+.gallery-container img{
+    border: 5px solid red;
+}
 .contact{
     max-width: 600px;
     margin: auto;
