@@ -220,5 +220,10 @@ img {
         height: 100px !important;
         object-fit: cover;
     }
-
+    .gallery-container img {
+    width: 90% !important;
+    height: 80px !important;
+    max-height: 80px !important;
+    display: block;
+    margin: 0 auto;
 }
