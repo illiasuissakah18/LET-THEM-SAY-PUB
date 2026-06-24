@@ -208,12 +208,6 @@ img {
         flex-direction: column;
         gap: 10px;
     }
-}
-@media (max-width: 768px) {
-
-    .gallery-container img{
-        height: 120px;
-    }
 
 }
 @media screen and (max-width: 768px){
