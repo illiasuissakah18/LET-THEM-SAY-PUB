@@ -205,3 +205,137 @@ footer {
         margin: 0 auto;
     }
 }
+.contact-page{
+    background: linear-gradient(
+        rgba(0,0,0,0.85),
+        rgba(0,0,0,0.85)
+    ),
+    url("images/pub1.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    color: white;
+    min-height: 100vh;
+    padding: 40px 20px;
+}
+
+.contact-page h2,
+.contact-page h3{
+    color: #d4a017;
+    text-align: center;
+}
+
+.contact-page p,
+.contact-page li{
+    color: white;
+}
+
+.contact-page form{
+    background: rgba(0,0,0,0.7);
+    border: 2px solid #d4a017;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.contact-page input,
+.contact-page textarea{
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 10px;
+    background: #111;
+    border: 1px solid #d4a017;
+    color: white;
+    border-radius: 8px;
+}
+
+.contact-page button{
+    width: 100%;
+    padding: 15px;
+    background: #d4a017;
+    color: black;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.contact-page button:hover{
+    background: #f0b93a;
+}
+.contact-page{
+    background: linear-gradient(
+        rgba(0,0,0,0.85),
+        rgba(0,0,0,0.85)
+    ),
+    url("images/contact-bg.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    color: white;
+    min-height: 100vh;
+}
+.about-page{
+    background:
+        linear-gradient(
+            rgba(0,0,0,0.75),
+            rgba(0,0,0,0.75)
+        ),
+        url("images/about-bg.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    min-height: 100vh;
+}
+
+.about-page h1,
+.about-page h2,
+.about-page h3,
+.about-page p,
+.about-page li{
+    color: white;
+}
+
+.about-page section{
+    background: rgba(0,0,0,0.6);
+    padding: 30px;
+    border-radius: 10px;
+    margin: 20px;
+}
+.about-page{
+    background:
+    linear-gradient(
+        rgba(0,0,0,0.75),
+        rgba(0,0,0,0.75)
+    ),
+    url("images/about-bg.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    min-height: 100vh;
+}
+
+.about-page h1,
+.about-page h2,
+.about-page h3,
+.about-page p,
+.about-page li,
+.about-page a{
+    color: white;
+}
+
+.about-page section{
+    background: rgba(0,0,0,0.6);
+    padding: 30px;
+    border-radius: 12px;
+    margin: 20px;
+}
