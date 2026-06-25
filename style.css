@@ -50,7 +50,7 @@ button{
 
 .gallery-container img{
     width: 100%;
-    max-height: 120px;
+    height: 220px;
     object-fit: cover;
     border-radius: 10px;
 }
@@ -246,4 +246,11 @@ img {
         width: 90%;
         height: 180px;
     }
+}
+.gallery-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    max-width: 350px;
+    margin: auto;
 }
