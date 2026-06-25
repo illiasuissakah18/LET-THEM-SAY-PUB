@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - LET THEM SAY PUB</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="menu-page">
+    <script src="script.js"></script>
+</body>
+
+<header>
+    <img src="images/logo.png" alt="Logo" class="logo">
+    <h1>LET THEM SAY PUB</h1>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="menu.html">Menu</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<section class="menu-section">
+    <h2>Food Menu</h2>
+
+    <div class="menu-item">
+    <span>Jollof Rice & Chicken - GH₵50</span>
+    <button onclick="addToCart('Jollof Rice & Chicken', 50)">
+        Add to Cart
+    </button>
+</div>
+
+<div class="menu-item">
+    <span>Fried Rice & Chicken - GH₵55</span>
+    <button onclick="addToCart('Fried Rice & Chicken', 55)">
+        Add to Cart
+    </button>
+</div>
+
+<span id="cart-count">0</span>
+
+<h3>Your Cart</h3>
+<ul id="cart"></ul>
+
+<p>Total: GH₵<span id="total">0</span></p>
+
+    <h2>Drinks Menu</h2>
+
+    <div class="menu-item">
+        <span>Club Beer</span>
+        <span>GH₵25</span>
+    </div>
+
+    <h3>Checkout</h3>
+
+<form id="checkout-form">
+    <input type="text" id="customer-name" placeholder="Your Name" required>
+
+    <input type="tel" id="customer-phone" placeholder="Phone Number" required>
+
+    <textarea id="customer-address" placeholder="Delivery Address"></textarea>
+
+    <button type="submit">Place Order</button>
+</form>
+
+<div id="order-summary"></div>
+<button id="whatsapp-btn">
+    Send Order on WhatsApp
+</button>
+
+
+
+<div class="menu-item">
+        <span>Star Beer</span>
+        <span>GH₵25</span>
+    </div>
+
+    <div class="menu-item">
+        <span>Coca Cola</span>
+        <span>GH₵10</span>
+    </div>
+
+     <div class="menu-item">
+        <span>Malt</span>
+        <span>GH₵15</span>
+    </div>
+
+    <div class="menu-item">
+        <span>Gulder</span>
+        <span>GH₵20</span>
+
+    </div>
+    <button onclick="clearCart()">Clear Cart</button>
+</section>
+
+<footer>
+    <p>&copy; 2026 LET THEM SAY PUB</p>
+</footer>
+
+</body>
+</html>
