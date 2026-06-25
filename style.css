@@ -438,3 +438,63 @@ img{
     font-size:18px;
     cursor:pointer;
 }
+/* Mobile Responsive Design */
+@media screen and (max-width: 768px) {
+
+    header {
+        padding: 15px;
+    }
+
+    .logo {
+        width: 120px;
+        height: auto;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    nav a {
+        display: block;
+        padding: 10px;
+    }
+
+    .hero,
+    .about,
+    .contact,
+    .menu,
+    .gallery {
+        padding: 20px;
+    }
+
+    .gallery-container img {
+        width: 100%;
+        height: auto;
+    }
+
+    .menu-item {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    button {
+        width: 100%;
+    }
+
+    input,
+    textarea {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    footer {
+        font-size: 14px;
+        padding: 15px;
+    }
+}
