@@ -113,3 +113,8 @@ function sendOrder() {
 
     window.open(whatsappURL, "_blank");
 }
+if(document.getElementById("total-orders")){
+    document.getElementById("total-orders").textContent = 15;
+    document.getElementById("total-sales").textContent = "GH₵750";
+    document.getElementById("customers").textContent = 12;
+}

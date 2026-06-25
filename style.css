@@ -498,3 +498,28 @@ img{
         padding: 15px;
     }
 }
+.admin-page{
+    background:#111;
+    color:white;
+    text-align:center;
+    padding:30px;
+}
+
+.dashboard{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.card{
+    background:#222;
+    padding:20px;
+    width:220px;
+    border-radius:10px;
+    border:2px solid orange;
+}
+
+.card h2{
+    color:orange;
+}
